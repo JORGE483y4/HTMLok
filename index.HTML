@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento Pokémon Profesional | Conviértete en Maestro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="pokeball">⚪</span>
+                <h1>Pokémon Master Academy</h1>
+            </div>
+            <nav class="nav">
+                <a href="#servicios">Servicios</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">¡Conviértete en un Maestro Pokémon!</h2>
+                <p class="hero-subtitle">Entrenamiento profesional y consultoría especializada para alcanzar tus metas como entrenador</p>
+                <a href="#contacto" class="btn btn-primary">Comienza tu Aventura</a>
+            </div>
+            <div class="hero-image">
+                <div class="pokeball-large">⚪</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2 class="section-title">Mis Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Estrategia de Combate</h3>
+                    <p>Aprende las mejores estrategias, tipos efectivos y movimientos para dominar cualquier batalla.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Análisis de Equipo</h3>
+                    <p>Evaluación completa de tu equipo Pokémon con recomendaciones personalizadas de mejora.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Preparación Competitiva</h3>
+                    <p>Entrenamiento intensivo para torneos y competencias oficiales de alto nivel.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Clases Personalizadas</h3>
+                    <p>Sesiones uno a uno adaptadas a tu nivel y objetivos específicos como entrenador.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="card-icon">🔍</div>
+                    <h3>Consultoría Pokédex</h3>
+                    <p>Asesoría sobre estadísticas, habilidades y evoluciones de todas las especies Pokémon.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Entrenamiento EV/IV</h3>
+                    <p>Optimización de valores de esfuerzo e individuales para maximizar el potencial de tus Pokémon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <div class="sobre-mi-content">
+                <div class="sobre-mi-image">
+                    <div class="trainer-badge">🏅</div>
+                </div>
+                <div class="sobre-mi-text">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <p>¡Hola! Soy un Maestro Pokémon certificado con más de 10 años de experiencia en entrenamiento competitivo. He ganado múltiples medallas en las Ligas Pokémon de Kanto, Johto y Hoenn.</p>
+                    <p>Mi pasión es ayudar a entrenadores de todos los niveles a alcanzar su máximo potencial. Ya sea que estés comenzando tu aventura o buscando perfeccionar tus habilidades para competencias, estoy aquí para guiarte.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Entrenadores</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Medallas de Liga</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Años de Experiencia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <p class="contacto-subtitle">¿Listo para comenzar tu entrenamiento? Completa el formulario y te responderé pronto.</p>
+            <form class="contacto-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="servicio">Servicio de Interés *</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="estrategia">Estrategia de Combate</option>
+                            <option value="analisis">Análisis de Equipo</option>
+                            <option value="competitivo">Preparación Competitiva</option>
+                            <option value="clases">Clases Personalizadas</option>
+                            <option value="consultoria">Consultoría Pokédex</option>
+                            <option value="ev-iv">Entrenamiento EV/IV</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label for="privacidad">He leído y acepto el <a href="privacy.html" target="_blank">Aviso de Privacidad</a> *</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pokémon Master Academy</h3>
+                    <p>Entrenamiento profesional para futuros Maestros Pokémon</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="privacy.html">Aviso de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 jorgealcazar486@gmail.com</p>
+                    <p>📱 +52 9983386885</p>
+                    <p>📍 Ciudad Plateada, Kanto.--México</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pokémon Master Academy. Jorge Alcazar.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
